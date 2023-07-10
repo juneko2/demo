@@ -2,16 +2,89 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <h1>Title</h1>
-    Demo
+    <h1>Welcome to employee</h1>
+    <div>
+        <h2>Employee Profile</h2>
+        <form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Employ ID</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6</td>
+                        <td>test@gmail.com</td>
+                        <td>560000</td>
+                        <td>
+                            <button type="submit">Save</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <div>
+        <h2>Attendence</h2>
+        <button>Check Out</button>
+        <h3>Thanks for today!</h3>
+        <button onClick="{checkInAction}">Check In</button>
+        <h2>Working Record</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Check_In Time</th>
+                    <th>Check_Out Time</th>
+                    <th>Work Date</th>
+                    <th>Working Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>17:46:34</td>
+                    <td>なし</td>
+                    <td>25/05/2023</td>
+                    <td>なし</td>
+                </tr>
+                <tr>
+                    <td>09:05:34</td>
+                    <td>17:46:34</td>
+                    <td>26/05/2023</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>09:16:34</td>
+                    <td>19:46:34</td>
+                    <td>27/05/2023</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>09:50:34</td>
+                    <td>21:00:34</td>
+                    <td>28/05/2023</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>09:29:34</td>
+                    <td>18:00:34</td>
+                    <td>29/05/2023</td>
+                    <td>7.5</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>
