@@ -1,3 +1,71 @@
-h1 {
-    color: blue;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    height: 100vh;
+}
+
+.headTitle {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(123, 123, 218);
+    margin-bottom: 5px;
+}
+
+.sectionTitle {
+    padding-left: 20px;
+}
+
+.employeeThead,
+.recordHead {
+    background-color: rgb(112, 231, 231);
+}
+
+table {
+    border-spacing: 0;
+    padding-left: 40px;
+}
+
+th,
+td {
+    padding: 5px 15px;
+    text-align: center;
+    border: 1px solid #c3c1c1;
+}
+
+.saveBtn {
+    padding: 0 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(112, 231, 231);
+    border: none;
+}
+
+.checkinBtn {
+    padding: 30px 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+    background-color: rgb(234, 116, 167);
+    border: none;
+    border-radius: 50px;
+}
+
+.checkoutBtn {
+    padding: 30px 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    background-color: rgb(233, 215, 18);
+    border: none;
+    border-radius: 50px;
+}
+
+.workStatus {
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 10px;
 }

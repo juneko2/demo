@@ -10,12 +10,12 @@
 </head>
 
 <body>
-    <h1>Welcome to employee</h1>
+    <h1 class="headTitle">Welcome to employee</h1>
     <div>
-        <h2>Employee Profile</h2>
+        <h2 class="sectionTitle">Employee Profile</h2>
         <form>
             <table>
-                <thead>
+                <thead class="employeeThead">
                     <tr>
                         <th>Employ ID</th>
                         <th>Email</th>
@@ -29,7 +29,7 @@
                         <td>test@gmail.com</td>
                         <td>560000</td>
                         <td>
-                            <button type="submit">Save</button>
+                            <button type="submit" class="saveBtn">Save</button>
                         </td>
                     </tr>
                 </tbody>
@@ -37,13 +37,15 @@
         </form>
     </div>
     <div>
-        <h2>Attendence</h2>
-        <button>Check Out</button>
-        <h3>Thanks for today!</h3>
-        <button onClick="{checkInAction}">Check In</button>
-        <h2>Working Record</h2>
+        <h2 class="sectionTitle">Attendence</h2>
+        <div class="workStatus">
+            <button class="checkoutBtn">Check Out</button>
+            <h3>Thanks for today!</h3>
+            <button class="checkinBtn" onClick="{checkInAction}">Check In</button>
+        </div>
+        <h2 class="sectionTitle">Working Record</h2>
         <table>
-            <thead>
+            <thead class="recordHead">
                 <tr>
                     <th>Check_In Time</th>
                     <th>Check_Out Time</th>
